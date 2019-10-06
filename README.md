@@ -10,7 +10,7 @@ based on 3Blue1Brown youtube video: ["The most unexpected answer to a counting p
 
 ## 2- Fourier Series
 
-![Fourier Series](https://github.com/math-silva/p5.js/new/mainbranch/Fourier%20Series/FourierSeriesGif.gif)
+![Fourier Series](https://github.com/math-silva/p5.js/blob/mainbranch/Fourier%20Series/FourierSeriesGif.gif)
 
 [click here](https://github.com/math-silva/p5.js/tree/mainbranch/Fourier%20Series) to go Fourier Series folder.
 
