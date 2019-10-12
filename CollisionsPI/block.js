@@ -33,6 +33,6 @@ class Block {
 
   show() {
     const x = constrain(this.x, this.fixedX, width)
-    image(Img, x, this.y, this.w, this.w);
+    image(blockImg, x, this.y, this.w, this.w);
   }
 }

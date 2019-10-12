@@ -1,4 +1,4 @@
-let Img;
+let blockImg;
 let block1;
 let block2;
 let clack;
@@ -8,7 +8,7 @@ let digits = 6;  //################################ <-- PI DIGITS
 const timeSteps = 10 ** (digits-1);
 
 function preload() {
-  Img = loadImage('block.png');
+  blockImg = loadImage('block.png');
   clack = loadSound('clack.wav');
 }
 
@@ -50,6 +50,7 @@ function draw() {
 
   fill(0);
   line(0, height, width, height); // FLOOR
+  line(0, 0, 0, height); // WALL
 
   textSize(24);
   text('Collisions: '+ nf(collisions, digits), 10, 40);
